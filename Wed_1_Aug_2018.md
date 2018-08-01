@@ -2,6 +2,8 @@ Download and test: [guide](https://software.broadinstitute.org/gatk/documentatio
 Software packages.   
 BWA call it by indicate its full path (/Users/shuanglu/Documents/bwa-0.7.17/bwa)    
 SAMtools    
+apro13-36hv29:samtools-1.9 shuanglu$ ./configure   
+apro13-36hv29:samtools-1.9 shuanglu$ make   
 Picard.   
 shuanglu$ cd    
 shuanglu$ java -jar /Users/shuanglu/Documents/picard.jar   
