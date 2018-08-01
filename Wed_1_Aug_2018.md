@@ -11,4 +11,8 @@ shuanglu$ cd
 shuanglu$ java -jar /Users/shuanglu/Documents/picard.jar   
 Genome Analysis Toolkit (GATK).   
 IGV.   
-RStudio IDE and R libraries ggplot2 and gsalib.   
+RStudio IDE and R libraries ggplot2 and gsalib.    
+When try to install r package into R but fault report: tar: Failed to set default locale' error?    
+Step 1 (In R Console)   
+system('defaults write org.R-project.R force.LANG en_US.UTF-8')   
+Step 2: Restart R
